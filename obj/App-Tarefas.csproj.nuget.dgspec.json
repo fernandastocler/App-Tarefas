@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mrsantos\\OneDrive - Sistema FIEMG\\Documentos\\Teste_alunos\\Fernanda\\App-Tarefas-Fernanda\\App-Tarefas.csproj": {}
+    "C:\\Users\\Alunos\\Downloads\\fernanda\\App-Tarefas\\App-Tarefas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mrsantos\\OneDrive - Sistema FIEMG\\Documentos\\Teste_alunos\\Fernanda\\App-Tarefas-Fernanda\\App-Tarefas.csproj": {
+    "C:\\Users\\Alunos\\Downloads\\fernanda\\App-Tarefas\\App-Tarefas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrsantos\\OneDrive - Sistema FIEMG\\Documentos\\Teste_alunos\\Fernanda\\App-Tarefas-Fernanda\\App-Tarefas.csproj",
+        "projectUniqueName": "C:\\Users\\Alunos\\Downloads\\fernanda\\App-Tarefas\\App-Tarefas.csproj",
         "projectName": "App-Tarefas",
-        "projectPath": "C:\\Users\\mrsantos\\OneDrive - Sistema FIEMG\\Documentos\\Teste_alunos\\Fernanda\\App-Tarefas-Fernanda\\App-Tarefas.csproj",
-        "packagesPath": "C:\\Users\\mrsantos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrsantos\\OneDrive - Sistema FIEMG\\Documentos\\Teste_alunos\\Fernanda\\App-Tarefas-Fernanda\\obj\\",
+        "projectPath": "C:\\Users\\Alunos\\Downloads\\fernanda\\App-Tarefas\\App-Tarefas.csproj",
+        "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alunos\\Downloads\\fernanda\\App-Tarefas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mrsantos\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
