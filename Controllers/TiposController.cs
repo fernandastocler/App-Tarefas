@@ -2,16 +2,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using App_Tarefas.Data;
+using App_Tarefas.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using App_Tarefas.Data;
-using app_tarefas.Models;
-using Microsoft.AspNetCore.Authorization;
 
 namespace App_Tarefas.Controllers
 {
-    [Authorize]
     public class TiposController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -22,14 +20,13 @@ namespace App_Tarefas.Controllers
         }
 
         // GET: Tipos
-        [AllowAnonymous]
+        [Route("Tipos")]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Tipos.ToListAsync());
         }
 
         // GET: Tipos/Details/5
-         [AllowAnonymous]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -37,8 +34,7 @@ namespace App_Tarefas.Controllers
                 return NotFound();
             }
 
-            var tipo = await _context.Tipos
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var tipo = await _context.Tipos.FirstOrDefaultAsync(m => m.Id == id);
             if (tipo == null)
             {
                 return NotFound();
@@ -128,8 +124,7 @@ namespace App_Tarefas.Controllers
                 return NotFound();
             }
 
-            var tipo = await _context.Tipos
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var tipo = await _context.Tipos.FirstOrDefaultAsync(m => m.Id == id);
             if (tipo == null)
             {
                 return NotFound();
